@@ -1,4 +1,3 @@
-
 # IDAMP
 ## Intelligent Data Analysis and Modelling Platform
 
@@ -555,6 +554,17 @@ Copyright (c) 2026 IDAMP Dev Group
 For the complete license terms, see the [LICENSE](LICENSE) file.
 
 ---
+
+## 👥 Collaborators
+
+
+| Collaborator | Role | GitHub |
+|---|---|---|
+| Mohammed Mhowwala | Contributor | [@username](https://github.com/mMohammed2) |
+| Mohit Saurashtriya | Contributor | [@username](https://github.com/username) |
+| Mufaddal Tambawala | Contributor | [@username](https://github.com/username) |
+| Priyanshu Chouhan | Contributor | [@username](https://github.com/username) |
+| Tanmay Anjana | Contributor | [@username](https://github.com/username) |
 
 **IDAMP – Intelligent Data Analysis and Modelling Platform**
 
