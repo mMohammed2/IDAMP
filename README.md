@@ -14,23 +14,21 @@ LEARN – Learning Engine for Adaptive Reasoning and Networks.
 
 Together, these engines aim to provide an integrated environment for data understanding, preprocessing, model training, evaluation, export, and incremental learning.
 
-## 📖 Table of Contents
-
-- [Project Overview](#-project-overview)
-- [Core Engines](#-core-engines)
-  - [SENSE Engine](#1-sense)
-  - [LEARN Engine](#2-learn)
-- [Key Features](#-key-features)
-- [System Architecture](#️-system-architecture)
-- [Technology Stack](#️-technology-stack)
-- [System Workflow](#-system-workflow)
-- [Project Demonstrations](#-project-demonstrations)
-- [Project Structure](#-proposed-project-structure)
-- [Development Roadmap](#-development-roadmap)
-- [Future Scope](#-future-scope)
-- [Contributing](#-contributing)
-- [License](#-license)
-  
+📖 Table of Contents
+Project Overview
+Core Engines
+SENSE Engine
+LEARN Engine
+Key Features
+System Architecture
+Technology Stack
+System Workflow
+Project Demonstrations
+Project Structure
+Development Roadmap
+Future Scope
+Contributing
+License
 🎯 Project Overview
 
 Traditional machine learning workflows often require users to have prior knowledge of data preprocessing, feature engineering, algorithm selection, model training, and evaluation.
@@ -55,6 +53,7 @@ The central idea is to make machine learning more accessible by reducing manual 
 IDAMP is conceptually divided into two independent but interconnected processing engines.
 
 1. SENSE
+
 Semantic Evaluation, Normalisation and Sanitisation Engine
 
 SENSE is the data intelligence and preparation engine of IDAMP.
@@ -87,17 +86,17 @@ Detect duplicate and malformed entries.
 Address missing and potentially noisy data.
 Apply appropriate data cleaning strategies.
 Generate insights about dataset quality and transformations performed.
-
 Expected Outputs
-
 Semantically analysed dataset.
 Cleaned and normalised dataset.
 Data quality assessment report.
 Feature and attribute information.
+Transformation and preprocessing metadata.
 
 The objective of SENSE is to ensure that the data entering the model training pipeline is meaningful, consistent, and suitable for the intended task.
 
 2. LEARN
+
 Learning Engine for Adaptive Reasoning and Networks
 
 LEARN is the machine learning and model development engine of IDAMP.
@@ -169,7 +168,7 @@ Continuous Learning	Reuse models and incorporate additional training data.
 IDAMP follows a modular, microservices-oriented architecture, separating the frontend, backend business logic, and machine learning processing components.
 
 High-Level Architecture
-
+mermaid
 flowchart TD
     U[User] --> FE[React Frontend]
 
@@ -439,7 +438,6 @@ Integrate Redis if required.
 Explore containerisation.
 Set up deployment infrastructure.
 Attempt application deployment, subject to available resources and infrastructure.
-
 🔮 Future Scope
 
 IDAMP is envisioned as an extensible intelligent data analysis and modelling ecosystem.
@@ -457,7 +455,6 @@ Cloud-based training and deployment.
 Integration with external data sources.
 Support for additional machine learning frameworks.
 Advanced continuous learning strategies.
-
 🤝 Contributing
 
 Contributions, suggestions, and discussions are welcome.
@@ -469,7 +466,6 @@ Create a new feature branch.
 Implement your changes.
 Commit and push your changes.
 Submit a pull request with a description of your contribution.
-
 📌 Project Status
 
 Status: Under Development
@@ -482,15 +478,9 @@ The implementation of additional infrastructure components, including Kafka, Red
 
 📄 License
 
-DAMP – Intelligent Data Analysis and Modelling Platform is licensed under the MIT License.
+IDAMP – Intelligent Data Analysis and Modelling Platform is licensed under the MIT License.
 
 Copyright (c) 2026 IDAMP Dev Group
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
 
 For the complete license terms, see the LICENSE file.
 
